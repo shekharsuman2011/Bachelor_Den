@@ -1,0 +1,19 @@
+URl: http://localhost:6969/api/users/
+Method :POST
+{
+  "name": "Shekhar Suman",
+  "email": "shekharsuman1998@gmail.com",
+  "password": "1234567890"
+}
+{
+  "name":"BalKrishna",
+  "email":"balkrishna@gmail.com",
+  "password":"11111111"
+}
+
+{
+  "name":"Shree Pandey",
+  "email":"shreepandey@gmail.com",
+  "password":"22222222"
+}
+
