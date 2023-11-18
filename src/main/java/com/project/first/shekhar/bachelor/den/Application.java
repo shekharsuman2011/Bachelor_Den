@@ -15,6 +15,6 @@ public class Application {
 	}
 	@GetMapping("/")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("This is the Home Page");
+		return String.format("homepage is under construction");
 	}
 }
