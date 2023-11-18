@@ -5,11 +5,12 @@ import com.project.first.shekhar.bachelor.den.exceptions.ResourceNotFoundExcepti
 import com.project.first.shekhar.bachelor.den.payloads.UserDto;
 import com.project.first.shekhar.bachelor.den.repositories.UserRepo;
 import com.project.first.shekhar.bachelor.den.services.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     private UserRepo userRepo;
